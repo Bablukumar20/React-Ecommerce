@@ -1,16 +1,53 @@
-# React + Vite
+# 🛒 PrimeCart – Full Stack Ecommerce Web App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+PrimeCart is a modern **Full Stack Ecommerce Application** built using **React.js**, **Django REST Framework**, and **Tailwind CSS**. It provides a smooth shopping experience with product browsing, cart management, authentication, checkout flow, and a premium responsive UI.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+✅ Modern Responsive UI  
+✅ Product Listing with Search & Filter  
+✅ Product Detail Page  
+✅ Add to Cart / Remove from Cart  
+✅ Cart Drawer Sidebar  
+✅ Checkout Page  
+✅ Login / Signup / Phone Login  
+✅ Toast Notifications  
+✅ Dark Premium Theme  
+✅ Django REST API Backend  
+✅ Reusable Components Structure  
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Frontend
+- React.js
+- React Router DOM
+- Tailwind CSS
+- React Toastify
+- Lucide React Icons
+- Context API
+
+### Backend
+- Django
+- Django REST Framework
+- SQLite Database
+
+---
+
+## 📁 Project Structure
+
+```bash
+PrimeCart/
+│── frontend/
+│   ├── src/
+│   ├── package.json
+│
+│── backend/
+│   ├── api/
+│   ├── manage.py
+│   ├── seed.py
+│
+└── README.md
